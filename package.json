@@ -1,0 +1,25 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "express-validator": "^5.3.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.3.2",
+        "multer": "^1.4.0",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.4"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "author": "OWAD",
+    "license": "ISC"
+}
